@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 90vh;
+}
+
+section#info-personal{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,.25); 
+}
+
+.foto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.lista-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.proyecto{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px;
+}
+.proyecto img{
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: bisque;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+.opciones{
+    box-shadow:10px 5px #ccc;
+        
+}
+
+section#Experiencia{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
